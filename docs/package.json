@@ -13,6 +13,12 @@
   "scripts": {
     "preview": "yarn build && cd build/site && lite-server",
     "build": "yarn antora --stacktrace antora-playbook.yml",
-    "checks": "yarn antora --generator @antora/xref-validator antora-playbook.yml"
+    "checks": "yarn antora --generator @antora/xref-validator antora-playbook.yml",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true,
+  "dependencies": {
+    "@snyk/protect": "latest"
   }
 }
