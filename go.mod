@@ -13,7 +13,6 @@ require (
 	github.com/gertd/go-pluralize v0.1.1
 	github.com/go-logr/logr v0.1.0
 	github.com/google/uuid v1.1.1
-	github.com/hashicorp/go-getter v1.4.1
 	github.com/jpillora/backoff v1.0.0
 	github.com/magiconair/properties v1.8.1
 	github.com/mitchellh/go-homedir v1.1.0
@@ -36,6 +35,7 @@ require (
 	github.com/stoewer/go-strcase v1.0.2
 	github.com/stretchr/testify v1.5.1
 	go.uber.org/multierr v1.5.0
+	golang.org/x/sys v0.0.0-20220517195934-5e4e11fc645e // indirect
 	gopkg.in/inf.v0 v0.9.1
 	gopkg.in/yaml.v2 v2.3.0
 	k8s.io/api v0.18.2
